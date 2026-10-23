@@ -40,6 +40,199 @@
         padding:16px 0;
         border-bottom:1px solid #e1e8f2;
       }
+
+      nav{
+        display:flex;
+        justify-contex:space-between;
+        align-items:center;
+        gap:15px;
+        flex-wrap:wrap;
+      }
+
+      .logo{
+        font-size:21px;
+        font-weight:bold;
+        color:var(--blue);
+      }
+
+      nav a{
+        color:var(--dark);
+        text-decoration:none;
+        margin-left:12px;
+        font-weight:bold;
+      }
+
+      nav a:hover{color:var(--blue);}
+
+      .hero{
+        background:linear-gradient(135deg,#0755c9,#102448);
+        color:white;
+        padding:85px0;
+        text-align:center;
+      }
+
+      .hero h1{
+        font-size:clamp(32px,6rw,52px);
+        line-hight:1.15;
+        margin-bottom:20px;
+      }
+
+      .hero p{
+        max-width:650px;
+        margin:0 auto 25px;
+        font-size:18px;
+      }
+
+      .botton{
+        display:inline-block;
+        padding:12px 22px;
+        border-radius:8px;
+        background:var(--blue);
+        color:white;
+        text-decoration:none;
+        font-weight:bold;
+        cursor:pointer;
+        margin:5px;
+      }
+
+      .button:hover{opacity:0.88;}
+
+      .button-white{
+        background:white;
+        color:var(--blue);
+      }
+
+      section{padding:65px 0;}
+
+      .section-title{
+        text-align:center;
+        font-size:30px;
+        margin-bottom:12px;
+      }
+
+      .section-intro{
+        text-align:center;
+        max-width:650px;
+        margin:0 auto 32px;
+        color:#52627a;
+      }
+
+      .services-grid,
+      .projects-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+        gap:20px;
+      }
+
+      .card{
+        padding:25px;
+        background:white;
+        border:1px solid#dce6f4;
+        border-shadow:0 5px 18px rgba(16,36,72,0.06);
+      }
+
+      .card h3{
+        margin:12px0;
+        color:var(--blue);
+      }
+
+      .price{
+        color:var(--green);
+        font-weight:bold;
+        margin:14px0;
+        }
+
+      .light-section{background:var(--light);}
+
+      .project-tag{
+        display:inline-block;
+        background:#e0ebff;
+        color:var(--blue);
+        padding:14px 10px;
+        border-radius:20px;
+        font-size:13px;
+        font-weight:bold;
+      }
+
+      .about-content{
+        max-width:750px;
+        margin:auto;
+        text-align:center;
+      }
+
+      .contact-box{
+        background;var(--dark);
+        color:white;
+        border-radius:16px;
+        padding:35px 20px;
+        text-align:center;
+      }
+
+      . contact-boxp{
+        margin:12px auto;
+        max-width:600px;
+      }
+
+      footer{
+        text-align:center;
+        background:#08172f;
+        color:white;
+        padding:25px 10px;
+        font-size:14px;
+      }
+
+      @media(max-width:600px){
+        nav{justify-contect:center;}
+        nav a {margin:14px;font-size:14px;}
+        .hero {padding:60px0;}
+        section {padding:45px0;}
+      }
+      </style>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">BlueStar Web Design</div>
+          <div>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>We Build Website That Grow Your Businesses</h1>
+          <p>
+            Affordable,mordern and mobile-friendly websites for business in Kenya.Let your customers find you online.
+          </p>
+          <a class="button"
+            href="#contact">
+            Hire Us
+          </a>
+        </div>
+      </section>
       
+      
+    
+            
+          
+          
+        
+      
+    
+    
+        
+
+      
+      
+        
     
   
